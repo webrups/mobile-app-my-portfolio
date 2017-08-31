@@ -5,6 +5,11 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AboutPage } from '../pages/about/about';
+import { AmbitionsPage } from '../pages/ambitions/ambitions';
+import { BlogPage } from '../pages/blog/blog';
+import { SkillsPage } from '../pages/skills/skills';
+import { ProjectsPage } from '../pages/projects/projects';
+import { WorkExperiencePage } from '../pages/work_experience/work_experience';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -23,7 +28,12 @@ const cloudSettings: CloudSettings = {
   declarations: [
     MyApp,
     HomePage,
-    AboutPage
+    AboutPage,
+    BlogPage,
+    AmbitionsPage,
+    SkillsPage,
+    ProjectsPage,
+    WorkExperiencePage,
   ],
   imports: [
     BrowserModule,
@@ -38,7 +48,12 @@ const cloudSettings: CloudSettings = {
   entryComponents: [
     MyApp,
     HomePage,
-    AboutPage
+    AboutPage,
+    BlogPage,
+    AmbitionsPage,
+    WorkExperiencePage,
+    SkillsPage,
+    ProjectsPage
   ],
   providers: [
     StatusBar,
