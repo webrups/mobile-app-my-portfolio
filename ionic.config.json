@@ -1,5 +1,6 @@
 {
   "name": "sw-portfolio",
-  "app_id": "",
-  "type": "ionic-angular"
+  "app_id": "2d36772e",
+  "type": "ionic-angular",
+  "integrations": {}
 }
