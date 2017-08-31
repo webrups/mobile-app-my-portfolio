@@ -2,5 +2,7 @@
   "name": "sw-portfolio",
   "app_id": "2d36772e",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }
